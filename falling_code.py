@@ -12,8 +12,8 @@ parser.add_argument('-he', '--height', type=int, default=18, help='height of fal
 parser.add_argument('-s', '--speed', type=float, default=.035, help='time between lines in seconds')
 args = parser.parse_args()
 
-
-os.system('cls')
+# Does not work for linux
+#os.system('cls')
 STRING = ascii_letters + digits + punctuation
 
 
